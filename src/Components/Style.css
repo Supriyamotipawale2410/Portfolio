@@ -1,0 +1,209 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: gray;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Header Styles */
+.header {
+    background-color: rgb(74, 72, 72); /* Set a background color for the header */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline by default */
+    font-size: 1rem;
+    color: #ffffff; /* Default link color */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #38c7ff; /* Change color on hover */
+  }
+  
+  
+  /* Home Section */
+  .home {
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: burlywood;
+  }
+  
+  .home .tagline {
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* About Section */
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Skills Section */
+.skills {
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .skills-list li {
+    background-color: gray;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+  
+  
+  /* Projects Section */
+  .projects .project {
+    margin: 20px 0;
+    padding: 15px;
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .projects .project h3 {
+    margin-bottom: 10px;
+  }
+  
+  .projects .project p {
+    margin: 5px 0;
+  }
+  
+  /* Certifications Section */
+  .certifications .certification {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #555;
+    background: black;
+    border-radius: 5px;
+  }
+  
+  /* Interests Section */
+  .interests p {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  /* Contact Section */
+.contact {
+    background-color: black;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .contact p {
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #555f; /* Blue color for links */
+    transition: color 0.3s;
+  }
+  
+  .contact a:visited {
+    color: white; /* Gold color on hover */
+  }
+  
+  /* Icon styling */
+  .contact-info .fa {
+    margin-right: 10px;
+  }
+  
+  /* Download CV Button */
+  button {
+    background-color: white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffd700;
+  }
+  
+  
