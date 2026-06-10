@@ -1,0 +1,416 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: gray;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Header Styles */
+.header {
+    background-color: rgb(74, 72, 72); /* Set a background color for the header */
+    padding: 10px 20px;
+    position: sticky;
+    top: 1%;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    margin-right: 20px;
+}
+
+.hamburger-icon {
+    display: block;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+  
+  /* Parent container styling */
+.home-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Vertically center align items */
+  padding: 20px;
+  margin: 0 auto; /* Center the content in the page */
+  max-width: 1050px; /* Set a max width for layout */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+/* Left section (text) styling */
+.home-left {
+  flex: 1; /* Take equal space as the image */
+  padding-right: 1px; /* Add spacing between text and image */
+}
+
+.home-left h1 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.home-left p {
+  font-size: 1.2rem; /* Adjust paragraph font size */
+  color: #555; /* Text color */
+}
+
+/* Right section (image) styling */
+.home-right {
+  width: 30%;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+.home-right img {
+  max-width: 100%; /* Make the image responsive */
+  height: 300px;
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect */
+}
+
+  /* About Section */
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Skills Section */
+.skills {
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .skills-list li {
+    background-color: gray;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+  
+  
+  /* Projects Section */
+  .projects .project {
+    margin: 20px 0;
+    padding: 15px;
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .projects .project h3 {
+    margin-bottom: 10px;
+  }
+  
+  .projects .project p {
+    margin: 5px 0;
+  }
+  
+  /* Certifications Section */
+  .certifications .certification {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #555;
+    background: black;
+    border-radius: 5px;
+  }
+  
+  /* Interests Section */
+  .interests p {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  /* Contact Section */
+.contact {
+    background-color: black;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .contact p {
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #555f; /* Blue color for links */
+    transition: color 0.3s;
+  }
+  
+  .contact a:visited {
+    color: white; /* Gold color on hover */
+  }
+  
+  /* Icon styling */
+  .contact-info .fa {
+    margin-right: 10px;
+  }
+  
+  /* Download CV Button */
+  button {
+    background-color: white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffd700;
+  }
+
+  footer{
+    color: black;
+    text-align: center;
+  }
+  
+  
+  /* Tablet View (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+  /* Header styling */
+  .header {
+    padding: 10px 15px;
+  }
+
+  /* Navigation links */
+  .nav-links {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center;
+    display: none; /* Hide links by default */
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    font-size: 1.2rem;
+}
+
+/* Show the hamburger menu on smaller screens */
+.hamburger-menu {
+    display: block;
+}
+
+/* When the menu is open, show the links */
+.nav-links.active {
+    display: flex;
+}
+
+
+  /* Home container */
+  .home-container {
+    flex-direction: column; /* Stack left and right sections */
+    align-items: center; /* Center content */
+  }
+
+  .home-left {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .home-right {
+    width: 80%; /* Image takes more space on tablet */
+    margin-top: 20px;
+  }
+
+  .home-right img {
+    height: 250px;
+  }
+
+  /* Skills section */
+  .skills-list {
+    flex-direction: column; /* Stack skills vertically */
+    align-items: center;
+  }
+
+  /* Projects section */
+  .projects .project {
+    padding: 10px;
+  }
+
+  /* Certifications section */
+  .certifications .certification {
+    padding: 10px;
+  }
+
+  /* Contact section */
+  .contact {
+    padding: 30px 20px;
+  }
+
+  /* Button styling */
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile View (Less than 768px) */
+@media screen and (max-width: 768px) {
+  /* Header styling */
+  .header {
+    padding: 10px 15px;
+  }
+
+  /* Navigation links */
+  .hamburger-icon {
+    font-size: 3rem;
+}
+
+
+  /* Home container */
+  .home-container {
+    flex-direction: column; /* Stack left and right sections */
+    align-items: center; /* Center content */
+    padding: 15px;
+  }
+
+  .home-left {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .home-right {
+    width: 90%; /* Make image take up more space on mobile */
+    margin-top: 20px;
+  }
+
+  .home-right img {
+    height: 200px;
+  }
+
+  /* About Section */
+  .about p {
+    font-size: 1rem;
+  }
+
+  /* Skills Section */
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list li {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  /* Projects section */
+  .projects .project {
+    padding: 10px;
+  }
+
+  /* Certifications section */
+  .certifications .certification {
+    padding: 10px;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 20px 15px;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  /* Button styling */
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
